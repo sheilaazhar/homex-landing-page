@@ -1,0 +1,45 @@
+<template>
+<section class="text-center">
+  <h2 class="text-xl font-poppins font-semibold mt-10 md:text-3xl md:mt-20">TrustedBy</h2>
+  <p class="text-xs font-outfit text-gray-600 mt-2 leading-5 md:text-sm md:mt-5">
+    Non egestas nunc tempor pellentesque consequat. <br> Metus neque, sodales nisl mauris.
+  </p>
+  <div class="grid grid-cols-5 gap-6 place-items-center mt-5 md:mt-10 lg:gap-4">
+    <div v-for="company in companies" :key="company.id">
+      <img :src="company.image" alt="image">
+    </div>
+  </div>
+</section>
+</template>
+
+<script>
+export default {
+  name: 'TrustedBy',
+  data() {
+    return {
+      companies: [
+        {
+          id: 1,
+          image: 'ifttt.png',
+        },
+        {
+          id: 2,
+          image: 'amazon.png',
+        },
+        {
+          id: 3,
+          image: 'google.png',
+        },
+        {
+          id: 4,
+          image: 'paypal.png',
+        },
+        {
+          id: 5,
+          image: 'airbnb.png',
+        },
+      ],
+    };
+  },
+};
+</script>
