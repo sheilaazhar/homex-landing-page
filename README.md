@@ -1,4 +1,4 @@
-# online-learning-landing-page
+# homex - landing - page
 
 ## Project setup
 ```
