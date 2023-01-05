@@ -1,6 +1,6 @@
 <template>
-  <section class="grid grid-cols-1 gap-4 place-items-center text-center mt-24
-  lg:grid-cols-2 lg:place-items-start lg:mt-36 lg:text-left">
+  <section class="grid grid-cols-1 gap-4 place-items-center text-center mt-16
+  lg:grid-cols-2 lg:place-items-start lg:mt-24 lg:text-left">
     <div>
       <img class="max-w-xs lg:max-w-md px-10 sm:p-0" src="house.png" alt="house image" />
     </div>
@@ -16,12 +16,11 @@
         <li>Premium National Marketing</li>
         <li>Free, no Obligation Valuations</li>
       </ul>
-      <button
-      class="text-white bg-[#567AE5] hover:bg-blue-800 focus:ring-4
+      <button class="text-white bg-[#567AE5] hover:bg-blue-800 focus:ring-4
               focus:outline-none focus:ring-blue-300 font-medium rounded-lg
               text-sm px-3 py-1.5 text-center font-poppins mt-3 md:px-5 md:py-2">
-      See More
-    </button>
+        See More
+      </button>
     </div>
   </section>
 </template>
