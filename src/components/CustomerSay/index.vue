@@ -26,7 +26,7 @@
             </div>
             <div class="flex items-center">
               <img class="w-10 h-10 rounded-full mr-4"
-              :src="review.image" alt="Avatar of Jonathan Reinink">
+              :src="review.image" alt="'Avatar of' + review.name" >
               <div class="text-sm">
                 <p class="text-[#151D48] leading-none font-semibold font-poppins">
                   {{ review.name }}

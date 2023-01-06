@@ -43,7 +43,7 @@
     </div>
     <div class="row">
       <img src="image.png"
-      alt="image"
+      alt="building image"
       class="lg:max-w-2xl h-full w-full my-10 inset-y-0 right-0 hidden md:block">
     </div>
   </section>
