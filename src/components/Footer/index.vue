@@ -16,6 +16,7 @@
       <router-link to="/" class="text-white">
         <svg
           aria-hidden="true"
+          aria-label="instagram"
           focusable="false"
           data-prefix="fab"
           data-icon="instagram"
@@ -44,6 +45,7 @@
       <router-link to="/" class="text-white">
         <svg
           aria-hidden="true"
+          aria-label="linkedin"
           focusable="false"
           data-prefix="fab"
           data-icon="linkedin-in"
@@ -65,6 +67,7 @@
       <router-link to="/" class="text-white">
         <svg
           aria-hidden="true"
+          aria-label="facebook"
           focusable="false"
           data-prefix="fab"
           data-icon="facebook-f"
@@ -84,6 +87,7 @@
       <router-link to="/" class="text-white">
         <svg
           aria-hidden="true"
+          aria-label="twitter"
           focusable="false"
           data-prefix="fab"
           data-icon="twitter"

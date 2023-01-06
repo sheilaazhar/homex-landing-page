@@ -20,9 +20,9 @@
           </router-link>
           <div class="px-5 pb-5">
             <router-link to="/">
-              <h5 class="text-lg font-poppins font-semibold tracking-tight
+              <h3 class="text-lg font-poppins font-semibold tracking-tight
               text-gray-900 md:text-xl">
-                {{ residence.name }}</h5>
+                {{ residence.name }}</h3>
             </router-link>
             <p class="text-xs font-poppins mt-2 text-[#737791] md:text-sm">
               {{ residence.description }}
@@ -32,7 +32,8 @@
                 ${{ residence.price }}
               </span>
               <router-link to="/">
-                <button class="text-white bg-[#567AE5] hover:bg-blue-800 focus:ring-4
+                <button aria-label="book now"
+                class="text-white bg-[#567AE5] hover:bg-blue-800 focus:ring-4
               focus:outline-none focus:ring-blue-300 font-poppins font-medium rounded-lg text-xs
               px-3 py-1.5 text-center md:px-5 md:py-1.5 md:text-sm">Book Now</button>
               </router-link>

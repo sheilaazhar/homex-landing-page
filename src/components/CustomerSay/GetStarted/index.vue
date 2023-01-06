@@ -9,7 +9,8 @@
       Scelerisque consequat vel penatibus vivamus nec.
     </p>
     <router-link to="/">
-      <button class="text-white bg-[#151D48] hover:bg-white hover:text-[#151D48] focus:ring-4
+      <button aria-label="get started"
+      class="text-white bg-[#151D48] hover:bg-white hover:text-[#151D48] focus:ring-4
               focus:outline-none focus:ring-blue-300 font-medium font-poppins rounded-lg
               text-sm px-5 py-2 text-center mt-5">
         Get Started
