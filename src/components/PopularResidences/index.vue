@@ -15,15 +15,15 @@
       :breakpoints="swiperBreakpoints" class="mySwiper grid grid-cols-3 gap-2 place-items-center">
       <swiper-slide v-for="residence in residences" :key="residence.id">
         <div class="w-full max-w-xs bg-[#F9FAFB] border rounded-xl shadow-md md:max-w-sm">
-          <a href="#">
+          <router-link to="/">
             <img class="rounded-xl p-5" :src="residence.image" alt="image" />
-          </a>
+          </router-link>
           <div class="px-5 pb-5">
-            <a href="#">
+            <router-link to="/">
               <h5 class="text-lg font-poppins font-semibold tracking-tight
               text-gray-900 md:text-xl">
                 {{ residence.name }}</h5>
-            </a>
+            </router-link>
             <p class="text-xs font-poppins mt-2 text-[#737791] md:text-sm">
               {{ residence.description }}
             </p>
@@ -31,9 +31,11 @@
               <span class="text-lg font-poppins font-semibold mt-2 text-[#567AE5] md:text-xl">
                 ${{ residence.price }}
               </span>
-              <a href="#" class="text-white bg-[#567AE5] hover:bg-blue-800 focus:ring-4
+              <router-link to="/">
+                <button class="text-white bg-[#567AE5] hover:bg-blue-800 focus:ring-4
               focus:outline-none focus:ring-blue-300 font-poppins font-medium rounded-lg text-xs
-              px-3 py-1.5 text-center md:px-5 md:py-1.5 md:text-sm">Book Now</a>
+              px-3 py-1.5 text-center md:px-5 md:py-1.5 md:text-sm">Book Now</button>
+              </router-link>
             </div>
           </div>
         </div>

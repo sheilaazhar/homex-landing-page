@@ -7,13 +7,13 @@
       We’ll help you achieve your marketing & business goals
     </p>
     <div class="flex justify-center mt-2 space-x-5 font-outfit font-medium sm:space-x-10">
-      <div>Home</div>
-      <div>About</div>
-      <div>Service</div>
-      <div>Contact</div>
+      <router-link to="/" class="hover:text-blue-400 cursor-pointer">Home</router-link>
+      <router-link to="/" class="hover:text-blue-400 cursor-pointer">About</router-link>
+      <router-link to="/" class="hover:text-blue-400 cursor-pointer">Service</router-link>
+      <router-link to="/" class="hover:text-blue-400 cursor-pointer">Contact</router-link>
     </div>
     <div class="flex justify-center mt-5 mb-9  space-x-9">
-      <a href="#!" class="text-white">
+      <router-link to="/" class="text-white">
         <svg
           aria-hidden="true"
           focusable="false"
@@ -40,8 +40,8 @@
             9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
           ></path>
         </svg>
-      </a>
-      <a href="#!" class="text-white">
+      </router-link>
+      <router-link to="/" class="text-white">
         <svg
           aria-hidden="true"
           focusable="false"
@@ -61,8 +61,8 @@
             94 0 111.28 61.9 111.28 142.3V448z"
           ></path>
         </svg>
-      </a>
-      <a href="#!" class="text-white">
+      </router-link>
+      <router-link to="/" class="text-white">
         <svg
           aria-hidden="true"
           focusable="false"
@@ -80,8 +80,8 @@
             124.72v70.62H22.89V288h81.39v224h100.17V288z"
           ></path>
         </svg>
-      </a>
-      <a href="#!" class="text-white">
+      </router-link>
+      <router-link to="/" class="text-white">
         <svg
           aria-hidden="true"
           focusable="false"
@@ -108,7 +108,7 @@
             60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
           ></path>
         </svg>
-      </a>
+      </router-link>
     </div>
   </div>
 

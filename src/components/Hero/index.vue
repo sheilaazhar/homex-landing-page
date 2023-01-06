@@ -30,12 +30,14 @@
                 md:p-4 md:pl-10 md:text-sm"
               placeholder="Search by Location" required>
           </label>
+          <router-link to="/">
           <button type="submit"
           class="text-white font-outfit absolute right-1.5 bottom-1.5 bg-blue-700 hover:bg-blue-800
               focus:ring-4 focus:outline-none focus:ring-blue-300
               rounded-lg text-xs px-2 py-1 md:py-2 md:right-2.5 md:bottom-2.5 md:text-sm md:px-4">
             Search
           </button>
+        </router-link>
         </div>
       </form>
     </div>
