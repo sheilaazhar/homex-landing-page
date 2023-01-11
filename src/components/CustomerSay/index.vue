@@ -17,7 +17,8 @@
       v-for="review in reviews"
         :key="review.id">
         <div class="max-w-sm w-full lg:max-w-full lg:flex relative">
-          <img src="review.png" alt="review" class="w-10 h-10 absolute top-[-25px] left-[20px]" />
+          <img src="review.png" alt="review"
+          class="w-10 h-10 absolute top-[-25px] left-[20px]" loading="lazy" />
           <div class="border border-gray-200 bg-gray-100 rounded-lg p-4 flex flex-col
       justify-between leading-normal">
             <div class="mb-5">
@@ -26,7 +27,7 @@
             </div>
             <div class="flex items-center">
               <img class="w-10 h-10 rounded-full mr-4"
-              :src="review.image" alt="'Avatar of' + review.name" >
+              :src="review.image" alt="'Avatar of' + review.name" loading="lazy" >
               <div class="text-sm">
                 <p class="text-[#151D48] leading-none font-semibold font-poppins">
                   {{ review.name }}

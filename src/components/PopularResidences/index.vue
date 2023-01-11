@@ -17,7 +17,7 @@
         <div class="w-full max-w-xs bg-[#F9FAFB] border rounded-xl shadow-md md:max-w-sm">
           <router-link to="/">
             <img class="rounded-xl p-5" width="382" height="331"
-            :src="residence.image" :alt="residence.name + ' image'" />
+            :src="residence.image" :alt="residence.name + ' image'" loading="lazy"/>
           </router-link>
           <div class="px-5 pb-5">
             <router-link to="/">

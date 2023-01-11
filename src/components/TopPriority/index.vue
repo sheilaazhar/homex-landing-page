@@ -3,7 +3,7 @@
   lg:grid-cols-2 lg:place-items-start lg:mt-28 lg:text-left">
     <div>
       <img class="max-w-xs lg:max-w-md px-10 sm:p-0"
-      width="448" height="448" src="house.png" alt="house image" />
+      width="448" height="448" src="house.png" alt="house image" loading="lazy" />
     </div>
     <div>
       <h2 class="text-xl font-poppins font-semibold mt-5 md:text-3xl md:mt-30">

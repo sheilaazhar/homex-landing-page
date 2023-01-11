@@ -6,7 +6,7 @@
   </p>
   <div class="grid grid-cols-3 gap-6 place-items-center mt-5 md:mt-10 lg:gap-4 md:grid-cols-5">
     <div v-for="company in companies" :key="company.id">
-      <img :src="company.image" :alt="company.desc" width="129" height="47">
+      <img :src="company.image" :alt="company.desc" width="129" height="47" loading="lazy">
     </div>
   </div>
 </section>
