@@ -4,7 +4,7 @@
   <p class="text-xs font-outfit text-gray-600 mt-2 leading-5 md:text-sm md:mt-5">
     Non egestas nunc tempor pellentesque consequat. <br> Metus neque, sodales nisl mauris.
   </p>
-  <div class="grid grid-cols-5 gap-6 place-items-center mt-5 md:mt-10 lg:gap-4">
+  <div class="grid grid-cols-3 gap-6 place-items-center mt-5 md:mt-10 lg:gap-4 md:grid-cols-5">
     <div v-for="company in companies" :key="company.id">
       <img :src="company.image" :alt="company.desc" width="129" height="47">
     </div>

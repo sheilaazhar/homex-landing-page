@@ -70,7 +70,7 @@ export default {
   data() {
     return {
       swiperBreakpoints: {
-        768: {
+        530: {
           slidesPerView: '2',
         },
         1280: {
