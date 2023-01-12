@@ -12,39 +12,40 @@
 </section>
 </template>
 
+<script setup>
+import { ref } from 'vue';
+
+const companies = ref([
+  {
+    id: 1,
+    image: 'ifttt.png',
+    desc: 'IFTTT Logo',
+  },
+  {
+    id: 2,
+    image: 'amazon.png',
+    desc: 'Amazon Logo',
+  },
+  {
+    id: 3,
+    image: 'google.png',
+    desc: 'Google Logo',
+  },
+  {
+    id: 4,
+    image: 'paypal.png',
+    desc: 'Paypal Logo',
+  },
+  {
+    id: 5,
+    image: 'airbnb.png',
+    desc: 'Airbnb Logo',
+  },
+]);
+</script>
+
 <script>
 export default {
   name: 'TrustedBy',
-  data() {
-    return {
-      companies: [
-        {
-          id: 1,
-          image: 'ifttt.png',
-          desc: 'IFTTT Logo',
-        },
-        {
-          id: 2,
-          image: 'amazon.png',
-          desc: 'Amazon Logo',
-        },
-        {
-          id: 3,
-          image: 'google.png',
-          desc: 'Google Logo',
-        },
-        {
-          id: 4,
-          image: 'paypal.png',
-          desc: 'Paypal Logo',
-        },
-        {
-          id: 5,
-          image: 'airbnb.png',
-          desc: 'Airbnb Logo',
-        },
-      ],
-    };
-  },
 };
 </script>
